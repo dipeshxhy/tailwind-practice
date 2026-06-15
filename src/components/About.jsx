@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <div className='py-10 container mx-auto'>
-        <div className='text-center  '>
+        <div className='text-center mb-10 '>
           <h2 className='text-3xl font-bold mb-4'>SOME WORD’S ABUOT ME</h2>
           <p className='w-1/2 mx-auto text-center'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est</p>
         </div>
