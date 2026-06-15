@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='bg-[#EDEDED] h-[calc(70vh-72px)]'>
       <div className='container mx-auto py-5 flex flex-col justify-between h-full'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center sticky top-18'>
           <h2 className='text-3xl font-black font-cursive'>Dipesh</h2>
           <span><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M3 4h18v2H3zm0 7h12v2H3zm0 7h18v2H3z"/></svg></span>
         </div>

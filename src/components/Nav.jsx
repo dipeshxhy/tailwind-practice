@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Nav = () => {
   return (
-    <div className="bg-white shadow-md ">
+    <div className="bg-white shadow-md sticky top-0 z-10">
       <div className="container mx-auto h-18 flex items-center justify-between">
         <div className="text-xl flex items-center  font-bold text-black">
           <span>
