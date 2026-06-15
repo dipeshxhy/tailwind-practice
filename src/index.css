@@ -2,3 +2,21 @@
 @theme{
   --font-cursive: 'Dancing Script', cursive;
 }
+
+@utility img-box {
+  div:nth-of-type(2){
+    @apply h-[40vh]
+
+  }
+  div:nth-of-type(3){
+    @apply row-span-2 
+
+  }
+  div:nth-of-type(4){
+    @apply  row-start-2 col-start-2
+
+  }
+  div:nth-of-type(5){
+    @apply  row-start-3 col-start-2 
+  }
+}
